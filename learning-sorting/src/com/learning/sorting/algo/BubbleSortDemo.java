@@ -10,10 +10,10 @@ public class BubbleSortDemo {
 		for (int i = 0; i < arr.length - 1; i++) {
 
 			System.out.println("\n\ni : " + i + " iteration : ");
-			boolean swapped = false;
+			boolean isSwapped = false;
 			for (int j = 0; j < arr.length - i - 1; j++) {
 
-				swapped = false;
+				isSwapped = false;
 				System.out.print("\nj : " + j + " iteration : ");
 
 				if (arr[j] > arr[j + 1]) {
@@ -21,7 +21,7 @@ public class BubbleSortDemo {
 					int temp = arr[j];
 					arr[j] = arr[j + 1];
 					arr[j + 1] = temp;
-					swapped = true;
+					isSwapped = true;
 
 				}
 
