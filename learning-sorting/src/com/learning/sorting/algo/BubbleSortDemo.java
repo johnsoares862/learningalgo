@@ -27,7 +27,7 @@ public class BubbleSortDemo {
 
 				display(arr);
 			}
-			if (!swapped) {
+			if (!isSwapped) {
 				break;
 			}
 		}
